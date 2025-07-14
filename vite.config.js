@@ -18,7 +18,8 @@ export default defineConfig({
       'localhost',
       'studenthub-4.onrender.com',
       'studenthub-5.onrender.com',
-      'studenthub-6.onrender.com'
+      'studenthub-6.onrender.com',
+      'studenthub-23xj.onrender.com'
     ]
   },
   build: {
