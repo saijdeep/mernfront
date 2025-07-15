@@ -42,6 +42,8 @@ const Login = () => {
       }
 
       const data = await response.json();
+      localStorage.setItem("token", data.token);
+
       
       // For both login and signup, use the user data from the response
       dispatch(addUser(data.user || data));
